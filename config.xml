@@ -2,13 +2,13 @@
 
 <widget xmlns ="http://www.w3.org/ns/widgets"
  xmlns:gap ="http://phonegap.com/ns/1.0"
- id ="com.phonegap.app10"
+ id ="com.phonegap.app12"
  version ="1.0.0">
  
- <name>app10 DAW Proyecto final/name>
+ <name>app10 Tutorial Daw</name>
  
   <description>
-   DAW Poyecto final
+   Tutorial Daw
   </description>
   
   <autor href="https://build.phonegap.com" email="cb16.arriola.leon.caleb@gmail.com">
