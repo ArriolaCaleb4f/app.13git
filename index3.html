@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div
+{
+width:100px;
+height:100px;
+background:red;
+position:relative;
+animation:mianimacion 5s infinite;
+-webkit-animation:mianimacion 5s infinite; /* Safari and Chrome */
+}
+
+@keyframes mianimacion
+{
+from {top:0px;}
+to {top:200px;}
+}
+
+@-webkit-keyframes mianimacion /* Safari and Chrome */
+{
+from {top:0px;}
+to {top:200px;}
+}
+</style>
+</head>
+<body>
+
+<p><strong>Nota:</strong> @keyframes no es soportada por el IE 9 ni versiones anteriores.</p>
+
+<div></div>
+Esto es animar con css
+</body>
+</html>
